@@ -8,6 +8,7 @@ use Illuminate\Http\Request;
 class PracticeController extends Controller
 {
     public function index(Request $request){
+        
        
         $user=User::find(1);
         dd($user);
